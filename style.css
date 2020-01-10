@@ -1,0 +1,61 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.timer {
+	position: relative;
+	display: inline-block;
+}
+
+.controls {
+	display: flex;
+	flex-direction: column;
+	background: transparent;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+.controls input {
+	display:block;
+	border: none;
+	background: transparent;
+	text-align: center;
+	font-size: 90px;
+	width: 240px;
+}
+
+.controls input:focus{
+	border: none;
+	outline: none;
+}
+
+.controls button {
+	background: transparent;
+	border: none;
+	font-size: 36px;
+	cursor: pointer;
+}
+
+.controls button:focus, .controls button:active{
+	border: none;
+	outline: none;
+}
+
+.dial {
+	height: 400px;
+	width: 400px;
+}
+
+  
+
+  
+ 
